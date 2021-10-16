@@ -1,7 +1,7 @@
-name="Rajat"
-length=len(name)
-i=0
 
-for n in range(-1,(-length-1),-1):
-   print(name[i],"\t",name[n])
-   i+=1
+name = input("Please enter your name")
+print("Hello" + name + "Now enter your numbers")
+
+for i in range(1,4):
+   for j in range(1,4):
+      matris = input("Enter value at position" + str([i]) + str([j]))
